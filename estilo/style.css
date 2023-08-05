@@ -17,7 +17,12 @@ header{
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.220);
 }
 header img{
-    vertical-align: middle;
+    position: absolute;
+
+    top: 50%;
+    left: 8%;
+
+    transform: translate(0%,-50%);
 }
 nav{
     align-items: end;
@@ -37,11 +42,11 @@ div > a{
 
     top: 50%;
 
-    transform: translate(-50%,-45%);
+    transform: translate(-50%,-40%);
     color: black;
     font-variant: small-caps;
     text-decoration: none;
-    height: 35px;
+    height: 40px;
     width: 150px;
 }
 .menu{
