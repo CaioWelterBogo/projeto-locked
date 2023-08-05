@@ -12,13 +12,12 @@ body{
 }
 header{
     background-color: #77e4b5b3;
-    height: 15vh;
+    height: 150px;
     position: relative;
     box-shadow: 0 4px 5px rgba(0, 0, 0, 0.220);
 }
 header img{
-    margin-top: -72px;
-    margin-left: 8vw;
+    vertical-align: middle;
 }
 nav{
     align-items: end;
@@ -32,11 +31,13 @@ nav{
 div > a{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
+    font-size: 1.4em;
+
     position: absolute;
 
-    top: 25%;
-    transform: translate(-50%,0);
+    top: 50%;
 
+    transform: translate(-50%,-45%);
     color: black;
     font-variant: small-caps;
     text-decoration: none;
