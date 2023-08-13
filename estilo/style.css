@@ -38,7 +38,7 @@ nav{
     transform: translate(0%,-50%);
         
 }
-div > a{
+div a{
     font-family: 'Inter', sans-serif;
     font-weight: bold;
     font-size: 1.4em;
@@ -70,35 +70,57 @@ div > a{
 }
 .menu > a:hover{
     text-decoration: underline;
+
+}
+.menu:active{
+    transform: scale(96%);
+    box-shadow: inset 2px 2px 2px #43816691;
 }
 main{
     width: 1000px;
     background-color: rgba(0, 0, 0, 0.758);
     margin: auto;
-    height: 100vh;
+    height: 100%;
     box-shadow: 0px 0px 10px #343131f4;
 
 }
-main > h1, p{
+main h1, p{
     padding: 18px;
     text-align: justify;
     color: white;
 }
 
-main > p{
+main p{
     font-size: 1.2em;
     line-height: 27px;
     font-family: 'Arvo', serif;
     
 }
-main >h1{
+main h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 'bold';
     font-size: 2em;
     padding-left: 40px;
+    padding-bottom: 6px;
+}
+section#sobre{
+    padding-bottom: 60px;
+}
+.servicos{
+    display: inline-block;
+    position: absolute;
+    left: 2.9%;
 
 }
-
+section.servico{
+    position: relative;
+    padding-bottom: 60px;
+    padding-top: 40px;
+}
+section.servico > h1, section.servico > p{
+    display: inline-block;
+    padding-left: 30%;
+}
 .imagem img{
     padding-top: 16px;
     padding-left: 1px;
